@@ -1,0 +1,273 @@
+body{
+
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+header{
+    background-image: linear-gradient(90deg,#19398a 12%,#1b4c92 50%,#19398a 89%);
+}
+header a{
+    
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-image: url("assets/sprite.png") ;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-position: center left;
+
+}
+h1{
+
+    color: red;
+}
+
+#loading{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180eg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+    
+  }
+
+#grid{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 40px;
+    margin: 50px 70px 50px;
+    text-align: center;
+
+}
+
+
+#chennai-super-kings{
+    background-color: #f38b04;
+    position: relative;
+
+}
+
+#delhi-capitals{
+    background-color: #004c93;
+    
+    
+}
+
+#kings-xi-punjab{
+    background-color: brown;
+}
+
+#kolkata-knight-riders{
+    background-color: rgba(77, 20, 117, 0.884)
+}
+
+#mumbai-indians{
+    background-color: #033d66
+}
+
+#rajasthan-royals{
+    background-color: #112f7c
+}
+
+#royal-challengers-bangalore{
+    background-color: rgb(56, 55, 55)
+}
+
+#sunrisers-hyderabad{
+    background-color:rgb(223, 60, 19)
+}
+
+.team_card{
+
+    border-radius: 10px;
+    opacity: 0.95;
+    padding-bottom: 15px;
+}
+
+
+#team_data{
+
+    padding: 0px 30px;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr;
+}
+
+
+#team_name, #stadium, #team_home{
+    color: white;
+}
+
+#team_logo{
+
+    position: relative;
+    bottom: 20px;
+    width: 45%;
+}
+
+
+#winning_years{
+
+    color: #e2d612;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1em;
+}
+
+#stadium{
+
+    font-size: 0.8em;
+}
+
+#team_name{
+
+    font-size: 1.6em;
+    margin: 0px auto;
+}
+
+#team_home{
+
+    font-weight: 800;
+    font-size: 0.85em;
+    text-decoration: none;
+    margin: 10px 0px;
+  
+}
+
+.arrowP{
+
+   display: none;
+}
+
+
+
+/* For tablets */
+
+@media only screen and (max-width: 1200px) {
+
+    header a{
+        height: 100px;
+    }
+
+    #grid{
+      
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        margin: 50px 20px 50px;
+    }
+}
+
+/* For mobile */
+
+@media only screen and (max-width: 650px) {
+
+   
+    body{
+
+        font-size: 9px;
+    }
+
+   
+    header a{
+        height: 50px;
+    }
+
+    #grid{
+      
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        margin: 50px 10px 50px;
+        
+    }
+
+    
+    .team_card{
+
+        height: 70px;
+        display: grid;
+        grid-template-columns: 70px 30fr 3fr;
+        margin: 0px;
+        padding: 0px;
+    }
+        
+    #team_data{
+        
+        height: 100%;
+        display: initial;
+        text-align: left;
+        padding: 10px 0px;
+        
+    }
+
+    #stadium, #team_home{
+
+        display: none;
+    }
+
+    #logo_div{
+    
+        margin: 0px;
+        height: inherit;
+    }
+
+    #team_logo{
+
+       all: initial;
+       
+    }
+
+    #team_logo{
+
+        height: 80%;
+        width: 80%;
+        margin: 10% 0px;
+        position: inherit;
+     }
+
+    .arrowP{
+
+        display: inline;
+        color: white;
+        font-size: 2em;
+        padding: 25px 0px;
+        margin: 0px;
+        vertical-align: auto;
+        background-color: hsla(0,0%,7%,.2);
+    }
+
+    #winning_years{
+
+        margin: 7px;
+        padding: 6px 8px;
+        border-radius: 10px;
+        font-size: 1.3em;
+    }
+
+    #team_name{
+
+        margin-left: 10px;
+        font-size: 1.3em;
+    }
+
+    
+}
