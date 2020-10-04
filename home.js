@@ -78,7 +78,7 @@ function createTeamCard(team){
     
     let teamHome = document.createElement("a");
     teamHome.innerHTML = 'TEAM HOME';
-    teamHome.setAttribute("href", "./teams/" + team.id);
+    teamHome.setAttribute("href", "./" + team.id);
     teamHome.setAttribute("id", "team_home");
 
     let teamData = document.createElement("div");
