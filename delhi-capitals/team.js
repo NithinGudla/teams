@@ -31,7 +31,7 @@ var xhttp = new XMLHttpRequest();
   };
 
   const proxyurl = "https://cors-anywhere.herokuapp.com/";
-  const url = "https://ipl-t20.herokuapp.com/teams/chennai-super-kings";
+  const url = "https://ipl-t20.herokuapp.com/teams/delhi-capitals";
   xhttp.open("GET", proxyurl + url, true);
   xhttp.send();
 

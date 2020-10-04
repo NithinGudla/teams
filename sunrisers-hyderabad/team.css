@@ -68,14 +68,15 @@ header a{
 .player_image_div{
 
     border-radius: 10px 10px 0px 0px;
-    background-color: #f38b04;
+    background: linear-gradient(134deg,#fb643e,#b81c25);
+    
 }
 
 .player_image{
 
     width: 90%;
-    max-height: 200px;
     min-height: 200px;
+    max-height: 200px;
 }
 
 .player_first_name{
@@ -159,14 +160,14 @@ header a{
 
 .team_name{
 
-    color: black;
+    color: white;
     opacity: 0.7;
     font-size: 2.5em;
 }
 
 .winning_years{
 
-    color: white;
+    color: gold;
     opacity: 0.7;
     font-size: 1.2em;
 }
@@ -175,7 +176,7 @@ header a{
 
 #heading{
 
-    background-image: url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/CSK-huddle.jpg"), url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/CSK.jpg");
+    background-image: url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/SRH-huddle.jpg"), url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/SRH.jpg");
 
     background-position: right bottom, left top;
     background-repeat: no-repeat, no-repeat;
@@ -191,9 +192,11 @@ header a{
     display: grid;
     height: inherit;
     grid-template-columns: 2fr 3fr;
-    background-color: rgba(253,185,19, .7);
+    background-color: rgb(251,101,63, 0.7);
     margin-right: 35%;
 }
+
+
 
 
 
@@ -304,7 +307,7 @@ header a{
 
     #heading{
 
-        background-image: url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/CSK.jpg");
+        background-image: url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/SRH.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%; 
         height: 250px;   
@@ -314,7 +317,6 @@ header a{
 
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-color: rgba(236, 176, 11, 0.7);
         margin: 0px;
         text-align: center;
     }
@@ -417,7 +419,7 @@ header a{
 
     #heading{
 
-        background-image: url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/CSK.jpg");
+        background-image: url("https://www.iplt20.com/resources/v4.16.0/i/team-bgs/SRH.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%; 
         height: 250px;   
@@ -427,7 +429,6 @@ header a{
 
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        background-color: rgba(236, 176, 11, 0.7);
         margin: 0px;
         text-align: center;
     }
