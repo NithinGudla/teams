@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     text-align: center;
     width: 100%;
+    margin: 0px;
 }
 
 header{
@@ -74,8 +75,7 @@ header a{
 .player_image{
 
     width: 90%;
-    min-height: 200px;
-    max-height: 200px;
+    max-height: 202px;
 }
 
 .player_first_name{
@@ -223,6 +223,17 @@ header a{
         
     }
 
+    body{
+
+        font-size: 50%;
+    }
+
+    .player_image{
+
+        width: 60%;
+       
+    }
+    
     #grid{
       
         grid-template-columns: repeat(4, 1fr);

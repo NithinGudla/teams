@@ -1,5 +1,4 @@
-document.write('hello8');
-
+console.log('test10');
 let teams_data;
 
 let loading_icon = document.getElementById("loading");
