@@ -123,10 +123,9 @@ header a{
 
     color: #e2d612;
     background-color: rgba(0, 0, 0, 0.4);
-    
     width: fit-content;
-    padding: 1vw;
-    border-radius: 1vw;
+    padding: 10px;
+    border-radius: 15px;
     font-size: 1em;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -184,6 +183,11 @@ header a{
 
 @media only screen and (max-width: 1350px) {
 
+    #winning_years{
+
+        padding: 5px;
+        border-radius: 5px;
+    }
     .team_card{
 
         padding-left: 4px;
@@ -199,7 +203,7 @@ header a{
   
     body{
 
-        font-size: 1vw;
+        font-size: 50%;
     }
     
 
