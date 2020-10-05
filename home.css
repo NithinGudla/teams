@@ -175,7 +175,13 @@ header a{
 
     #winning_years{
 
-        padding: 8px;
+        padding: px;
+    }
+
+    #grid{
+
+        grid-template-columns: 25% 25% 25% 25%;
+    
     }
 }
 
@@ -196,23 +202,11 @@ header a{
 
         padding: 8px;
     }
-}
 
-@media only screen and (max-width: 1350px) {
+    #grid{
 
-    .team_card{
-
-        padding-left: 4px;
-        padding-right:4px;
-    }
-    body{
-
-        font-size: 11px;
-    }
-
-    #winning_years{
-
-        padding: 8px;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    
     }
 }
 
@@ -247,6 +241,12 @@ header a{
     #winning_years{
 
         padding: 6px;
+    }
+
+    #grid{
+
+        grid-template-columns: 50% 50%;
+    
     }
 }
 
