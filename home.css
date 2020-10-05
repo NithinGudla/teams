@@ -47,7 +47,7 @@ header a{
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 10px;
     row-gap: 40px;
-    margin: 50px 70px 50px;
+    margin: 50px 80px 50px 50px;
     text-align: center;
 
 }
@@ -93,12 +93,12 @@ header a{
     border-radius: 10px;
     opacity: 0.95;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 
 #team_data{
 
-    padding: 0px 30px;
     align-content: center;
     text-align: center;
     display: grid;
@@ -264,19 +264,7 @@ header a{
     }
 }
 
-@media only screen and (max-width: 900px) {
 
-
-    body{
-
-        font-size: 6px;
-    }
-
-    #winning_years{
-
-        padding: 4px;
-    }
-}
 
 @media only screen and (max-width: 900px) {
 

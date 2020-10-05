@@ -1,3 +1,5 @@
+document.write(screen.width + ', ' + screen.height + ', ' + window.width + ', ' + window.height);
+
 let teams_data;
 
 let loading_icon = document.getElementById("loading");
