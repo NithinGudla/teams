@@ -190,6 +190,12 @@ header a{
         padding-right:4px;
         padding-bottom: 8px;
     }
+
+    #team_logo{
+
+        width: 10vw;
+        bottom: 10px;
+    }
   
     body{
 
@@ -226,18 +232,6 @@ header a{
     
     }
 }
-
-@media only screen and (max-width: 1000px) {
-
-
-   
-
-    #winning_years{
-
-        padding: 5px;
-    }
-}
-
 
 
 @media only screen and (max-width: 900px) {
