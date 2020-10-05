@@ -93,6 +93,8 @@ header a{
 
     border-radius: 10px;
     opacity: 0.95;
+    padding-left: 10%;
+    padding-right: 10%; 
     padding-bottom: 15px;
     text-align: center;
 }
@@ -168,17 +170,16 @@ header a{
 
     .team_card{
 
-        padding-left: 4px;
-        padding-right:4px;
+        
         padding-bottom: 10px;
     }
 
   
-    #grid{
+    /* #grid{
 
         grid-template-columns: 25% 25% 25% 25%;
     
-    }
+    } */
 }
 
 
@@ -191,8 +192,7 @@ header a{
     }
     .team_card{
 
-        padding-left: 4px;
-        padding-right:4px;
+       
         padding-bottom: 8px;
     }
 
@@ -204,25 +204,15 @@ header a{
   
     body{
 
-        font-size: 48%;
+        font-size: 46%;
     }
     
 
-    #grid{
+    /* #grid{
 
         grid-template-columns: 33.33% 33.33% 33.33%;
     
-    }
-}
-
-@media only screen and (max-width: 1220px) {
-
-    .team_card{
-
-        padding-left: 2px;
-        padding-right:2px;
-    }
-
+    } */
 }
 
 
@@ -231,11 +221,11 @@ header a{
 
   
 
-    #grid{
+    /* #grid{
 
         grid-template-columns: 50% 50%;
     
-    }
+    } */
 }
 
 
