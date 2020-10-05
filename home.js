@@ -1,4 +1,4 @@
-document.write('hello6');
+document.write('hello7');
 
 let teams_data;
 

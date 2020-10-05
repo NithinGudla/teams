@@ -225,12 +225,12 @@ header a{
 
     body{
 
-        font-size: 55%;
+        font-size: 50%;
     }
 
     .player_image{
 
-        width: 90%;
+        width: 60%;
         max-height: 200px;
         min-height: 200px;
     }
