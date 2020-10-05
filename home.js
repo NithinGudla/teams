@@ -1,4 +1,4 @@
-document.write('test20');
+
 let teams_data;
 
 let loading_icon = document.getElementById("loading");

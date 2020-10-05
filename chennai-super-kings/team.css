@@ -14,12 +14,11 @@ header a{
     
     display: block;
     width: inherit;
-    height: 80px;
+    height: 100px;
     background-image: url("../assets/sprite.png") ;
     background-repeat: no-repeat;
     background-size: auto 80%;
     background-position: center left;
-
    
 }
 
@@ -203,30 +202,28 @@ header a{
 
 @media only screen and (max-width: 1500px) {
 
-    header a{
-        height: 100px;
-        
+
+    body{
+
+        font-size: 58%;
+    }
+    .player_image{
+
+        width: 60%;
+       
     }
 
-    #grid{
+    /* #grid{
       
         grid-template-columns: repeat(5, 1fr);
         row-gap: 20px;
         margin: 50px 20px 50px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1250px) {
 
-    header a{
-        height: 100px;
-        
-    }
-
-    body{
-
-        font-size: 50%;
-    }
+   
 
     .player_image{
 
@@ -244,10 +241,7 @@ header a{
 
 @media only screen and (max-width: 950px) {
 
-    header a{
-        height: 100px;
-        
-    }
+  
 
     #grid{
       
@@ -259,7 +253,7 @@ header a{
 
 @media only screen and (max-width: 800px) {
 
-    body{
+    /* body{
 
         font-size: 9px;
     }
@@ -354,7 +348,7 @@ header a{
     .player_image{
 
         width: 50%;
-    }
+    } */
 }
 
 
