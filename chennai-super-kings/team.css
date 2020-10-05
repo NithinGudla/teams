@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     text-align: center;
     width: 100%;
+    margin: 0px;
 }
 
 header{
@@ -190,7 +191,7 @@ header a{
     text-align: left;
     display: grid;
     height: inherit;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 40% 60%;
     background-color: rgba(253,185,19, .7);
     margin-right: 35%;
 }
@@ -220,6 +221,18 @@ header a{
     header a{
         height: 100px;
         
+    }
+
+    body{
+
+        font-size: 55%;
+    }
+
+    .player_image{
+
+        width: 90%;
+        max-height: 200px;
+        min-height: 200px;
     }
 
     #grid{
