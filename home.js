@@ -1,4 +1,4 @@
-
+document.write('hello');
 
 let teams_data;
 
