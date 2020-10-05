@@ -123,13 +123,14 @@ header a{
 
     color: #e2d612;
     background-color: rgba(0, 0, 0, 0.4);
-    margin: auto;
+    
     width: fit-content;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 1vw;
+    border-radius: 1vw;
     font-size: 1em;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    margin: auto auto;
 }
 
 #stadium{
@@ -169,17 +170,10 @@ header a{
 
         padding-left: 4px;
         padding-right:4px;
-    }
-    body{
-
-        font-size: 40%;
+        padding-bottom: 10px;
     }
 
-    #winning_years{
-
-        padding: 5px;
-    }
-
+  
     #grid{
 
         grid-template-columns: 25% 25% 25% 25%;
@@ -194,13 +188,14 @@ header a{
 
         padding-left: 4px;
         padding-right:4px;
+        padding-bottom: 8px;
     }
   
+    body{
 
-    #winning_years{
-
-        padding: 8px;
+        font-size: 1vw;
     }
+    
 
     #grid{
 
@@ -217,21 +212,13 @@ header a{
         padding-right:2px;
     }
 
-
-    #winning_years{
-
-        padding: 7px;
-    }
 }
 
 
 @media only screen and (max-width: 1100px) {
 
 
-    #winning_years{
-
-        padding: 6px;
-    }
+  
 
     #grid{
 
@@ -255,12 +242,7 @@ header a{
 
 @media only screen and (max-width: 900px) {
 
-    #winning_years{
-
-        padding: 2px;
-    }
-
- 
+  
 
     #team_home{
         margin: 7px 0px;
@@ -270,11 +252,7 @@ header a{
 
 @media only screen and (max-width: 800px) {
 
-    #winning_years{
-
-        padding: 2px;
-    }
-
+  
     #team_home{
         margin: 5px 0px;
       
